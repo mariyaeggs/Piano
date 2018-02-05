@@ -18,40 +18,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0b0-ve-FIp">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0b0-ve-FIp">
                                 <rect key="frame" x="80" y="172" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.87450980389999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="regularNoteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4VR-KT-P1L"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygg-4j-pSK">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygg-4j-pSK">
                                 <rect key="frame" x="154" y="172" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.87450980389999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="D"/>
+                                <connections>
+                                    <action selector="regularNoteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pdH-Bt-enn"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88y-pc-18z">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88y-pc-18z">
                                 <rect key="frame" x="239" y="172" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.87450980389999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="E"/>
+                                <connections>
+                                    <action selector="regularNoteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FW0-bf-srT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbC-ds-P0A">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbC-ds-P0A">
                                 <rect key="frame" x="309" y="172" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.87450980389999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="F"/>
+                                <connections>
+                                    <action selector="regularNoteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="afU-3S-EBy"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlY-3T-Uov">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlY-3T-Uov">
                                 <rect key="frame" x="388" y="172" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.87450980389999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="G"/>
+                                <connections>
+                                    <action selector="regularNoteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ESB-mT-gd1"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Lh-sl-QhP">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Lh-sl-QhP">
                                 <rect key="frame" x="482" y="172" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.87450980389999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="A"/>
+                                <connections>
+                                    <action selector="regularNoteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k61-4a-SsN"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKL-ZX-6k0">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKL-ZX-6k0">
                                 <rect key="frame" x="556" y="172" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.87450980389999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="B"/>
+                                <connections>
+                                    <action selector="regularNoteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TCe-2r-Dcd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
